@@ -2,7 +2,6 @@
 [![Latest Version](https://img.shields.io/github/release/scybulski/laravel-validator-color.svg?style=flat-square)](https://github.com/scybulski/laravel-validator-color/releases)
 [![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE.md)
 [![Build Status](https://travis-ci.org/scybulski/laravel-validator-color.svg?branch=master)](https://travis-ci.org/scybulski/laravel-validator-color)
-[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/scybulski/laravel-validator-color/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/scybulski/laravel-validator-color/?branch=master)
 [![Total Downloads](https://img.shields.io/packagist/dt/scybulski/laravel-validator-color.svg?style=flat-square)](https://packagist.org/packages/scybulski/laravel-validator-color)
 
 This package will let you validate that a certain value is a valid CSS color string.
@@ -21,7 +20,7 @@ You need to register a service provider by adding the following to the `provider
 ```php
 scybulski\Validator\Color\ServiceProvider::class
 ```
-Then you can use the rules in a Controller or Form Request as following as following.
+Then you can use the rules in a Controller or Form Request as following.
 ```php
 use Illuminate\Foundation\Http\FormRequest;
 
