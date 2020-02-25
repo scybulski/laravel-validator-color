@@ -1,6 +1,6 @@
 <?php
 
-namespace Tylercd100\Validator\Color\Tests;
+namespace scybulski\Validator\Color\Tests;
 
 use Orchestra\Testbench\TestCase as Orchestra;
 
@@ -9,12 +9,12 @@ class TestCase extends Orchestra
     /**
      * Setup the test environment.
      */
-    public function setUp()
+    public function setUp(): void
     {
         parent::setUp();
     }
 
-    public function tearDown()
+    public function tearDown(): void
     {
         parent::tearDown();
     }
@@ -24,7 +24,7 @@ class TestCase extends Orchestra
      */
     protected function getPackageProviders($app)
     {
-        return ['Tylercd100\Validator\Color\ServiceProvider'];
+        return ['scybulski\Validator\Color\ServiceProvider'];
     }
 
     /**

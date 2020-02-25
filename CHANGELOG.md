@@ -2,6 +2,10 @@
 
 All notable changes to `laravel-validator-color` will be documented in this file.
 
+### 4.0.0
+- Moved code to Rules
+- Added rules for short hex, long hex and common rule for RGB with or without alpha
+
 ### 3.0.2
 - Fixed broken use statement
 
