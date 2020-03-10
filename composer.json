@@ -32,8 +32,8 @@
     },
     "minimum-stability": "stable",
     "require": {
-        "illuminate/validation": ">=5.0 <7.0",
-        "illuminate/support": ">=5.0 <7.0",
+        "illuminate/validation": ">=5.0 <8.0",
+        "illuminate/support": ">=5.0 <8.0",
         "php": ">=7.0 <7.5"
     },
     "require-dev": {
